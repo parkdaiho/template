@@ -10,20 +10,13 @@
     HEADER
   </header>
   <main>
-    <section>
-      <h1>Share your opinion with people!</h1>
+    <section class="page-info-area">
+      <h1>COMMUNITY</h1>
+      <p>Read posts you interested in!</p>
     </section>
-    <form action="/posts" method="POST">
-      <div class="post-search-box">
-        <select name="sort">
-          <option value="title">TITLE</option>
-          <option value="contents">CONTENTS</option>
-          <option value="writer">WRITER</option>
-        </select>
-        <input type="text" id="query">
-        <button type="submit">검색</button>
-      </div>
-    </form>
+
+    POST-SEARCH-AREA
+
     <div class="posts-area">
       <div class="post-list">
         <div class="post-in-posts-top">
@@ -44,6 +37,9 @@
           <div class="post-writer">bbb</div>
           <div class="post-created-at">2024.03.27</div>
         </div>
+      </div>
+      <div class="posts-btn">
+        <button>NEW-POST</button>
       </div>
     </div>
   </main>
