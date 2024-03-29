@@ -4,22 +4,23 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/css/css.css">
   <title>NEW-POST</title>
+  <script>document.execCommand('defaultParagraphSeparator', false, 'br');</script>
 </head>
 <body>
   <header>
     HEADER
   </header>
   <main>
-    <section>
+    <section class="page-info-area">
       <h1>POST</h1>
       <p>Add a post and share your opinion with people!</p>
     </section>
     <div class="new-post-area">
       <div class="new-post-title">
-        <input type="text" name="title" placeholder="TITLE">
+        <input type="text" placeholder="TITLE">
       </div>
-      <div class="new-post-contents">
-        <textarea name="contents"></textarea>
+      <div class="new-post-contents textarea" contenteditable="true">
+
       </div>
       <div class="new-post-file-area">
         <div class="new-post-input">
@@ -31,6 +32,7 @@
       </div>
       <div class="new-post-btn">
         <button>ADD</button>
+        <button>MODIFIY</button>
         <button>BACK</button>
       </div>
     </div>
